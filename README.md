@@ -18,3 +18,13 @@ In OOP we combine related variables and functions into a cohesive unit which we 
 #### What is a Class?
 
 In order to create an Object we use Class. A Class is a blueprint, capsule which defines what the object should look like & do. All Object characteristics are caplsulate in a Class.
+
+#### Properties
+
+Properties are like a variable which belong to a class.
+
+#### Visibility keywords PHP
+
+-   **public**
+-   **protected**
+-   **private**
