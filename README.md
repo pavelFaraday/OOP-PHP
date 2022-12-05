@@ -23,6 +23,10 @@ In order to create an Object we use Class. A Class is a blueprint, capsule which
 
 Properties are like a variable which belong to a class.
 
+#### Methoda
+
+Methods are functions which belong to object and allow an object to perform a task.
+
 #### Visibility keywords PHP
 
 -   **public**
