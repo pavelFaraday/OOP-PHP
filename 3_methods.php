@@ -12,4 +12,4 @@ class Product
 
 $soap = new Product();
 $soap->price = 500;
-var_dump($soap->priceCurrency()) . "\n"; #5
+var_dump($soap->priceCurrency()) . "\n";
