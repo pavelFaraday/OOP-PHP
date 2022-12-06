@@ -1,13 +1,8 @@
 <?php
 class Product
 {
-    public $name;
-    public $price;
-
-    public function __construct($name, $price)
+    public function __construct(public $name, public $price)
     {
-        $this->name = $name;
-        $this->price = $price;
     }
 
     public function priceCurrency($currencySymbol = "$", int $divisor = 100)
