@@ -53,3 +53,17 @@ In PHP 8.0, Named Parameters support is added, which means it's now possible to 
 
 > You'll use constructors to do whatever should always be done - and done first - when an object of this class is made/initiated.
 > Classes which have a constructor method call this method on each newly-created object, so it is suitable for any initialization that the object may need before it is used.
+
+#### Primitive Types
+
+**Strict Mode in PHP 👇**
+`declare(strict_types=1);`
+
+-   boolean
+-   integer
+-   float
+-   string
+-   object
+-   resource
+-   array
+-   null
