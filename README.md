@@ -32,3 +32,19 @@ Methods are functions which belong to object and allow an object to perform a ta
 -   **public**
 -   **protected**
 -   **private**
+
+#### Positional Arguments VS Named Arguments
+
+PHP 8.0 supports optionally calling functions and class methods by specifying the parameter name, instead of calling them on the order of parameters that they are declared.
+
+PHP, and many other programming languages, support positional parameters: The caller passes the parameters in the same order the function/method declares its parameters.
+
+In PHP 8.0, Named Parameters support is added, which means it's now possible to call a function/method by setting the parameters by their name, not only by their order!.
+
+**Positional Arguments**
+`function str_contains(string $haystack, string needle){..code}`
+`str_contains('FooBar', 'Foo');`
+
+**Named Arguments**
+`function str_contains(string $haystack, string $needle){}`
+`str_contains(needle: 'Foo', haystack: 'FooBar');`
