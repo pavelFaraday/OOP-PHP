@@ -71,3 +71,16 @@ In PHP 8.0, Named Parameters support is added, which means it's now possible to 
 `: void`
 
 > void is a return-only type declaration indicating the **_function does not return a value_**, we don't expect return something from function/method.
+
+---
+
+#### OOP Core Principles
+
+**Encapsulation**
+
+> U can have a class, which inherits from a pharent. So, it will inherit pharent class properties & methods. But U will also be able declare child class own properties & methods. This means that child class extends the parent class.
+> INHERITANCE solves 2 main issues: **Redundency** & **Dublication**.
+
+**Abstraction**
+**Inheritance**
+**Polymorphism**

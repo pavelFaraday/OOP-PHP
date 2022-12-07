@@ -9,6 +9,7 @@ class Song
     * @param string $name
     * @param int $numberOfPlays
     */
+
     public function __construct(public string $name, public int $numberOfPlays)
     {
     }
