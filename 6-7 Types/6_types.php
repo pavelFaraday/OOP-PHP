@@ -15,5 +15,5 @@ class Song
 }
 
 $song = new Song('Yesterday', 10299);
-print $song->name . PHP_EOL; #Yesterday
-print $song->numberOfPlays . PHP_EOL; #10299
+print $song->name . PHP_EOL; # Yesterday
+print $song->numberOfPlays . PHP_EOL; # 10299

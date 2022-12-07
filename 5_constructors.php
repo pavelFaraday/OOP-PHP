@@ -1,5 +1,5 @@
 <?php
-class Product
+class Song
 {
     public function __construct(public $name, public $price)
     {
@@ -12,7 +12,7 @@ class Product
 }
 
 //  PHP_EOL === "\n"
-$product = new Product("Soap", 900);
-print $product->name . PHP_EOL;  # soap
-print $product->price . PHP_EOL; # 900
-print $product->priceCurrency(); # 9
+$song = new Song("Soap", 900);
+print $song->name . PHP_EOL;  # soap
+print $song->price . PHP_EOL; # 900
+print $song->priceCurrency(); # 9
