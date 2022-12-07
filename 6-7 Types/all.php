@@ -14,3 +14,5 @@ foreach ($playlist->songs as $song) {
     print $song->name . PHP_EOL;
     print $song->numberOfPlays . PHP_EOL;
 }
+
+print $playlist->something();
