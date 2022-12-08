@@ -98,6 +98,8 @@ class PhysicalBook extends Book
 }
 ```
 
+> During method overriding, Child Class Methods have major priority, then Parent Class methods.
+
 **Abstraction**
 **Inheritance**
 **Polymorphism**

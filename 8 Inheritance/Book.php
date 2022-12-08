@@ -26,4 +26,10 @@ class Book
     {
         return '$' . $this->price;
     }
+
+    public function printout()
+    {
+        return
+            "Title: {$this->title}, Author: {$this->author}, Price: \${$this->price}";
+    }
 }
