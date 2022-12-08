@@ -81,6 +81,23 @@ In PHP 8.0, Named Parameters support is added, which means it's now possible to 
 > U can have a class, which inherits from a pharent. So, it will inherit pharent class properties & methods. But U will also be able declare child class own properties & methods. This means that child class extends the parent class.
 > INHERITANCE solves 2 main issues: **Redundency** & **Dublication**.
 
+**Transpering/clone Parent properties in child via constructor 👇**
+
+```
+require_once "Book.php";
+
+class PhysicalBook extends Book
+{
+    public $weight;
+
+    public function __construct(string $title, string $author, int $price, int $weight)
+    {
+        parent::__construct($title, $author, $price);
+        $this->weight = $weight;
+    }
+}
+```
+
 **Abstraction**
 **Inheritance**
 **Polymorphism**
