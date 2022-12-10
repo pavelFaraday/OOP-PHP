@@ -74,9 +74,17 @@ In PHP 8.0, Named Parameters support is added, which means it's now possible to 
 
 ---
 
+#### Visibility Keywords
+
+**_Public_** properties and methods can be accessed anywhere in your code.
+**_Protected_** properties and methods can be accessed only be accessed within the declaring parent class & it's a child classes.
+**_Private_** properties and methods can be accessed only be accessed within the declaring class. They are not visible anywhere else.
+
+---
+
 #### OOP Core Principles
 
-**Encapsulation**
+### 1. Inheritance
 
 > U can have a class, which inherits from a pharent. So, it will inherit pharent class properties & methods. But U will also be able declare child class own properties & methods. This means that child class extends the parent class.
 > INHERITANCE solves 2 main issues: **Redundency** & **Dublication**.
@@ -100,6 +108,14 @@ class PhysicalBook extends Book
 
 > During method overriding, Child Class Methods have major priority, then Parent Class methods.
 
-**Abstraction**
-**Inheritance**
-**Polymorphism**
+### 2. Encapsulation
+
+**Why do we have encapsulation?**
+
+1. The functionality is defined in one place and not in multiple places.
+2. It is defined in a logical place.ie. the same place as its data.
+3. The data inside our objects can't be unexpectededly or unwantedly modified by external code in a completely different part of our program.
+
+### 3. Abstraction
+
+### 4. Polymorphism
