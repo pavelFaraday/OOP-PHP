@@ -70,6 +70,11 @@ In PHP 8.0, Named Parameters support is added, which means it's now possible to 
 
 `: void`
 
+Typed Properties
+`public string $title;`
+Union Typed Properties
+`public int|array $author;`
+
 > void is a return-only type declaration indicating the **_function does not return a value_**, we don't expect return something from function/method.
 
 ---

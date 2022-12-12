@@ -3,7 +3,8 @@ class Song
 {
     // Typed Properties
     public string $title;
-    public $author;
+    // Union Properties
+    public int|array $author;
 
     public function __construct(string $title, int $author)
     {
