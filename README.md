@@ -124,3 +124,24 @@ class PhysicalBook extends Book
 ### 3. Abstraction
 
 ### 4. Polymorphism
+
+---
+
+#### Static Properties & Methods
+
+Static properties belong to the class scope. So, U don't have to create a new counter object in order to be able to access static properties on it.
+
+**Why use statics?**
+
+-   Available anywhere in your program.
+-   Easy to setup and access.
+-   Same value is available to every object instance of that class.
+
+```
+class Counter
+{
+    public static string $name = 'Health';
+}
+
+print Counter::$name;
+```
