@@ -87,6 +87,23 @@ Union Typed Properties
 
 ---
 
+#### Global Constants | Class Constants
+
+> Difference between STATIC & CONSTANT Values: we can only change static value!
+> Constants belong to class scope/level, so we can access them directly off the class. No Object Needed ! 👇
+
+```
+class Example
+{
+    const AGE = 21;
+    const ERROR = 404;
+}
+print Example::AGE   // 21
+print Example::ERROR // 404
+```
+
+---
+
 #### OOP Core Principles
 
 ### 1. Inheritance

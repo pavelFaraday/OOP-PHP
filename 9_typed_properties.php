@@ -6,6 +6,12 @@ class Song
     // Union Properties
     public int|array $author;
 
+
+    /**
+     * union types
+     * @var int|float
+     */
+
     public function __construct(string $title, int $author)
     {
         $this->title = $title;
