@@ -104,6 +104,33 @@ print Example::ERROR // 404
 
 ---
 
+#### Abstract Classes
+
+> **An Abstract class is an template or base class that a child classes can extend from (PHP Inheritance concept). So, Abstract classes are classes which you don't instantiate themselves, instead they define interface for classes which extend them.**
+
+> An abstract class is a class that contains at least one abstract method. An abstract method is a method that is declared, but not implemented in the this parent class. So, Abstract classes and methods are when the parent class has a named abstract method, but need its child class(es) to fill out/implement this methods.
+> abstract class can not be instantiate, it can be only extended! So, U can not create objects directly from abstract class.
+
+![example1](/slides/abstract1.png)
+![example2](/slides/abstract2.png)
+![example3](/slides/abstract3.png)
+
+This is a TOOL, technic for writing cleaner & better logical structured code.
+
+When we use abstract class? We use abstract class when we want to force the child classes to implement the methods where U provide some base functionally.
+
+We use abstract classes when we want to commit the programmer (either oneself or someone else) to write a certain class method, but we are only sure about the name of the method, and not the details of how it should be written. To take an example, circles, rectangles, octagons, etc. may all look different, but are all 2D shapes nonetheless, and thus all possess the traits of area and circumference. So, it makes perfect sense to group the code that they have in common into one parent class. In this parent class, we would have the two properties of area and circumference, and we might even consider adding a method that calculates the area (which might be problematic since different shapes require different calculations). In these kinds of cases, when we need to commit the child classes to certain methods that they inherit from the parent class but we cannot commit about the code that should be used in the methods, we use abstract classes.
+
+If U have an abstract class where U have bunch of abstract methods, then U should not use abstract class - at this point U should use INTERFACES.
+
+The child class method must be defined with the same name and it redeclares the parent abstract method
+
+The child class method must be defined with the same or a less restricted access modifier
+
+The number of required arguments must be the same. However, the child class may have optional arguments in addition.
+
+---
+
 #### OOP Core Principles
 
 ### 1. Inheritance
